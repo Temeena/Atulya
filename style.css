@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+     width: 90%;
+     height: 100vh;
+     background-color: black;
+     color: white;
+     
+    
+    
+}
+.head{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color:  #1B4D3E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    flex-direction: column;
+    font-size: 20px;
+    
+}
+.img-logo{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+
+}
+.img-logo button{
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-inline: 20px;
+    color: lightslategray;
+
+}
+.img-logo ul{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 20px;
+}
+.menu{
+    width: 70%;
+    height: 20px;
+    height: auto;
+    margin-top: 10px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 150px;
+    margin-bottom: 0;
+
+}
+.menu i{
+    display: none;
+}
+.img-part{
+    width: 100%;
+
+    background-color: #20B2AA;
+
+}
+.img-part img{
+    width: 100%;
+    height: 280px;
+   
+    
+}
+.text{
+    width: 100%;
+    height: 30px;
+    background-color: #20B2AA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.text h3{
+    color: white;
+    font-weight: 200;
+}
+.items{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(249,246,230);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.items button{
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color:#20B2AA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: transparent;
+    margin-top: 10px;
+
+
+}
+.items h4{
+   color: #20B2AA;;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-inline: 20px;
+}
+.items-img{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1px solid white;
+    background-color: rgb(249,246,230);
+}
+.items-img img{
+   width: 200px;
+   height: 200px;
+   margin-bottom: 10px;
+}
+
+
+
+@media (max-width:768px) {
+    .main-container{
+        width: 100%;
+        height: auto;
+      
+    }
+    .container{
+         width: 90%;
+         height: auto;   
+    }
+    .head{
+        width: 100%;
+        height: 40px;
+     
+        
+    }
+    .head p{
+        width: 100%;
+        height: auto;text-align: center;
+    }
+    .img-logo{
+        width: 100%;
+        height: auto;
+       padding: 0;
+        
+    
+    }
+    .img-logo button{
+       display: none;
+       
+    
+    }
+    .img-logo ul{
+        display: none;
+     
+    }
+    .menu{
+        width: 100%;
+        height: auto;
+    }
+    .menu ul{
+        display: none;
+    }
+    .menu i{
+        display: inline;
+        display: flex;
+        align-items: end;
+        justify-content: flex-end;
+        position: relative;
+        bottom: 30px;
+    }
+    .img-part{
+        width: 100%;
+        height: auto;
+    }
+    .img-part img{
+        width: 100%;
+        height: auto;
+    }
+
+    .text{
+        width: 100%;
+        height: auto;
+    }
+    .items{
+        width: 100%;
+        height: auto;
+        background-color: black;
+    
+    }
+    .items button{
+        width: 30%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .items h4{
+        text-align: center;
+    }
+    .items-img{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    
+    }
+    .items-img img{
+        width: 50%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    
+}
